@@ -17,12 +17,18 @@ export default function Home(){
 sty = StyleSheet.create({
     container:{
         marginTop:50,
-        fontSize:20,
-        color:'green',
+        fontSize:25,
+        paddingLeft:40,
+        paddingRight:40,
+        paddingTop:20,
+        paddingBottom:20,
+        color:'black',
         alignSelf:'center',
+        textAlign:'center',
+        backgroundColor:'lightblue',
        },
     body:{
         marginLeft:10,
-        fontSize:15,
+        fontSize:20,
     }
 })

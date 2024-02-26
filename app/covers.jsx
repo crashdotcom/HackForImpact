@@ -7,19 +7,19 @@ export default function Cover(){
             <View style={sty.items}>
         <Image
         style={sty.cov}
-        source={require('./assets/favicon.png')}
+        source={require('./assets/bcover.jpg')}
       />
       <Image
         style={sty.cov}
-        source={require('./assets/favicon.png')}
+        source={require('./assets/bcover.jpg')}
       />
       <Image
         style={sty.cov}
-        source={require('./assets/favicon.png')}
+        source={require('./assets/bcover.jpg')}
       />
       <Image
         style={sty.cov}
-        source={require('./assets/favicon.png')}
+        source={require('./assets/bcover.jpg')}
       />
       </View>
 </ScrollView>
@@ -27,10 +27,10 @@ export default function Cover(){
     ); 
 }
 
-sty = StyleSheet.create({
+const sty = StyleSheet.create({
     cov:{
-        width:50,
-        height:70,
+        width:80,
+        height:120,
         margin:10,
 
     },

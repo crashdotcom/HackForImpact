@@ -17,7 +17,35 @@ export default function Landing() {
   useEffect(()=>{
     isLanding = !isLanding
   },[isLanding]);
-
+  const styles = StyleSheet.create({
+    container:{
+     marginTop:100,
+   
+    },
+    submitButton:{
+     borderRadius:10,
+     borderWidth:2,
+     borderColor:'black',
+     color:'red',
+     width:100,
+    },
+    input:{
+     borderWidth:1,
+     borderRadius:10,
+     marginLeft:10,
+     marginRight:10,
+     marginBottom:5,
+     padding:5,
+     
+    },
+    heading:{
+     alignSelf:'center',
+     justifyContent:'center',
+     fontSize:20,
+     color:'green',
+     textAlign:'center',
+    }
+   });
   
   return (
     <ScrollView style={styles.container}>
@@ -42,32 +70,4 @@ export default function Landing() {
   );
 }
 
-const styles = StyleSheet.create({
- container:{
-  marginTop:100,
 
- },
- submitButton:{
-  borderRadius:10,
-  borderWidth:2,
-  borderColor:'black',
-  color:'red',
-  width:100,
- },
- input:{
-  borderWidth:1,
-  borderRadius:10,
-  marginLeft:10,
-  marginRight:10,
-  marginBottom:5,
-  padding:5,
-  
- },
- heading:{
-  alignSelf:'center',
-  justifyContent:'center',
-  fontSize:20,
-  color:'green',
-  textAlign:'center',
- }
-});
